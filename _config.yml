@@ -1,13 +1,13 @@
-title: "Revolve -  Multipurpose Business & Corporate Jekyll Template"
-email: "rubel2585@gmail.com"
+title: "Pepe Moyano"
+email: "pepeiceberg@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Revolve - Multipurpose Business & Corporate Jekyll Template Jekyll Theme For Mobile Apps Download Landing Page And Blogging.
+  Pepe Moyano
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://demo.themefisher.com"
+url: "https://ppmoyano.github.io"
 permalink: "/:title"
-facebook_url: "https://www.facebook.com/rubel.hossain.31105"
-twitter_url: "https://twitter.com/tryghost"
-linkedin_url: "https://www.linkenin.com/rubel8525"
+facebook_url: "https://www.facebook.com/pepemoyano"
+twitter_url: "https://twitter.com/pepemoyano"
+linkedin_url: "https://www.linkedin.com/in/pepemoyano"
 pinterest_url: "https://www.pinterest.com/rubel8525"
 site_logo: "/assets/images/logo.png"
 white_logo: "/assets/images/logo-w.png"
@@ -17,16 +17,16 @@ copyright_text: "&copy; copyright all reserved to <a href='https://themefisher.c
 
 author_info:
   - name: "Themefisher"
-    designation: "Travel Blogger"
-    bio: "I'm Liam, last year I decided to quit my job and travel the world. You can follow my journey on this blog!"
-    website: "https://themefisher.com/"
+    designation: "Random Blogger"
+    bio: "Soy Pepe Moyano. Baterista, programados y ser humano."
+    website: "https://ppmoyano.github.io/"
     image: "/assets/images/author.jpg"
     signature: "/assets/images/liammason.png"
-    facebook_url: "https://www.facebook.com/rubel.hossain.31105"
-    twitter_url: "https://twitter.com/rubel8525"
-    instagram_url: "https://www.instagram.com/rubel8525"
-    youtube_url: "https://www.youtube.com/user/rubel2585"
-    pinterest_url: "https://www.pinterest.com/rubel8525/"
+    facebook_url: "https://www.facebook.com/pepemoyano"
+    twitter_url: "https://twitter.com/pepemoyano"
+    instagram_url: "https://www.instagram.com/pepe.moyano"
+    youtube_url: "https://www.youtube.com/user/pepemoyano"
+    #pinterest_url: "https://www.pinterest.com/rubel8525/"
 
 # Build settings
 markdown: kramdown
