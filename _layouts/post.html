@@ -1,124 +1,109 @@
 ---
 layout: default
 ---
-<div class="container">
-  <div class="post-title-box">
-    <div class="row">
-      <div class="col col-10 push-2 col-11 push-t-1 col-m-12 push-m-0">
-        <span class="post__date">
-          <time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%b %d, %Y'}}</time>
-        </span>
 
-        <h1 class="post-title">{{ page.title | escape }}</h1>
+{% include header_two.html %}
 
-        <div class="post__info">
-          <div class="post__author">
-            <span>By</span>
-            <a href="{{ site.baseurl }}/about/" class="author-name">{{site.data.settings.author.name}}</a>
-          </div>
+<section class="single-block-wrapper section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <div class="single-post">
+                    <div class="post-header mb-5 text-center">
+                        <div class="meta-cat">
+                            {{ page | tags }}
+                        </div>
+                        <h2 class="post-title mt-2">{{page.title}}</h2>
 
-          {% if page.tags.size >= 1 %}
-          <div class="post__tags">
-            {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/tag/{{ tag | downcase | replace: " ", "-" }}" class="post__tags-tag">{{ tag }}</a>
-            {% endfor %}
-          </div>
-          {% endif %}
+                        <div class="post-meta">
+                          {% if page.author %}
+                            <span class="text-uppercase font-sm letter-spacing-1 mr-3">by {{page.author}}</span>
+                          {% endif %}
+                            <span class="text-uppercase font-sm letter-spacing-1">{{page.date | date_to_long_string}}</span>
+                          
+                        </div>
+                        {% if page.post_image %}
+                        <div class="post-featured-image mt-5">
+                            <img src="{{page.post_image | relative_url}}" class="img-fluid w-100" alt="{{page.title}}">
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="post-body">
+                        <div class="entry-content">
+                            {{content}}
+                        </div>
+
+                        <div class="post-tags py-4">
+                            {{ page | tags | prepend:"#" }}
+                        </div>
+
+                        <div class="tags-share-box center-box d-flex text-center justify-content-between border-top border-bottom py-3">
+                            <span class="single-comment-o" data-disqus-identifier={{page.id}}><i class="fa fa-comment-o"></i> 0 comment</span>
+                            <div class="list-posts-share">
+                             {% include social_share.html %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% assign author_info = site.author_info %}
+                  {% for data in author_info %} 
+                    <div class="post-author d-flex my-5">
+                      {% if data['image'] %}
+                      <div class="author-img">
+                          <img alt="{{data['name']}}" src="{{data['image']}}" class="avatar avatar-100 photo" width="100" height="100">
+                      </div>
+                      {% endif %}
+                      <div class="author-content pl-4">
+                        <h4 class="mb-3">{{data['name']}}</h4>
+                        <p>{{data['bio']}}</p>
+                        {% if data['facebook_url'] %}
+                         <a target="_blank" class="author-social" href="{{data['facebook_url']}}"><i class="ti-facebook"></i></a>
+                        {% endif %}
+                        {% if data['twitter_url'] %}
+                         <a target="_blank" class="author-social" href="{{data['twitter_url']}}"><i class="ti-twitter"></i></a>
+                        {% endif %}
+                        {% if data['instagram_url'] %}
+                        <a target="_blank" class="author-social" href="{{data['instagram_url']}}"><i class="ti-instagram"></i></a>
+                        {% endif %}
+                        {% if data['pinterest_url'] %}
+                        <a target="_blank" class="author-social" href="{{data['pinterest_url']}}"><i class="ti-pinterest"></i></a>
+                        {% endif %}
+                        {% if data['youtube_url'] %}
+                        <a target="_blank" class="author-social" href="{{data['youtube_url']}}"><i class="ti-youtube"></i></a>
+                        {% endif %}
+                    </div>
+                    
+                </div>
+                {% endfor %}
+                <nav class="post-pagination clearfix border-top border-bottom py-4">
+                    {% if page.next.url %}
+                    <div class="prev-post">
+                        <a href="{{page.next.url | relative_url}}">
+                            <span class="text-uppercase font-sm letter-spacing">Next</span>
+                            <h4 class="mt-3">{{page.next.title}}</h4>
+                        </a>
+                    </div>
+                    {% endif %}
+                    {% if page.previous.url %}
+                    <div class="next-post">
+                        <a href="{{page.previous.url | relative_url}}">
+                            <span class="text-uppercase font-sm letter-spacing">Previous</span>
+                            <h4 class="mt-3">{{page.previous.title}}</h4>
+                        </a>
+                    </div>
+                    {% endif %}
+                </nav>
+                {% include related_posts.html %}
+                <div class="comment-area my-5">
+                <div id="disqus_thread"></div>
+                 {% include disqus_comments.html %}
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+              {% include sidebar.html %}
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+</section>
 
-  {% assign no-image = nil %}
-  {% if page.image %}
-    <div class="post__head">
-      <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
-    </div>
-  {% else %}
-    {% assign no-image = 'post-no-image' %}
-  {% endif %}
-
-  </div>
-
-
-  <div class="container">
-  <div class="row">
-    <!-- begin post -->
-    <article class="post {{ no-image }} col col-8 col-t-10 col-m-12">
-
-      <div class="post__content">
-        {{ content }}
-      </div>
-
-      <div class="post__share">
-        <span class="share__title">Share this article:</span>
-        <ul class="share__list list-reset">
-          <li class="share__item">
-            <a class="share__facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-              title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
-          </li>
-
-          <li class="share__item">
-            <a class="share__twitter" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-              title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
-          </li>
-
-          <li class="share__item">
-            <a class="share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.description | uri_escape }}&source={{ site.title | uri_escape }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
-          </li>
-
-          <li class="share__item">
-            <a class="share__pinterest" href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ site.baseurl }}/images/{{ page.image }}&amp;description={{ page.title | uri_escape }}"
-              onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest"
-              rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
-          </li>
-        </ul>
-      </div>
-    </article>
-    <!-- end post -->
-    </div>
-  </div>
-
-  <div class="container">
-  <div class="post__navigation">
-    {% if page.previous.url %}
-    <div class="prev">
-      <a class="post__nav__image" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image: url({{site.baseurl}}/images/{{page.previous.image}})"></a>
-      <h2 class="post__nav__title">
-        <i class="ion ion-md-arrow-back"></i>
-        <a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a>
-      </h2>
-      <p class="prev__excerpt">
-        {% if page.previous.description %}
-          {{ page.previous.description }}
-        {% else %}
-          {{ page.previous.content | strip_html | truncate: 110 }}
-        {% endif %}
-      </p>
-    </div>
-    {% endif %}
-
-    {% if page.next.url %}
-    <div class="next">
-      <a class="post__nav__image" href="{{ site.baseurl }}{{page.next.url}}" style="background-image: url({{site.baseurl}}/images/{{page.next.image}})">
-      </a>
-      <h2 class="post__nav__title">
-        <a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
-        <i class="ion ion-md-arrow-forward"></i>
-      </h2>
-      <p class="next__excerpt">
-        {% if page.next.description %}
-          {{ page.next.description }}
-        {% else %}
-          {{ page.next.content | strip_html | truncate: 110 }}
-        {% endif %}
-      </p>
-    </div>
-    {% endif %}
-  </div>
-
-  {% if site.data.settings.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
-  </div>
+{% include footer_two.html %}
