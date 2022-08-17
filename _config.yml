@@ -1,109 +1,272 @@
-title: "Pepe Moyano"
-email: "pepeiceberg@gmail.com"
-description: >- # this means to ignore newlines until "baseurl:"
-  Pepe Moyano
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ppmoyano.github.io"
-permalink: "/:title"
-facebook_url: "https://www.facebook.com/pepemoyano"
-twitter_url: "https://twitter.com/pepemoyano"
-linkedin_url: "https://www.linkedin.com/in/pepemoyano"
-instagram_url: "https://www.instagram.com/pepe.moyano"
-#pinterest_url: "https://www.pinterest.com/rubel8525"
-site_logo: "/assets/images/logo-superior.png"
-white_logo: "/assets/images/logo-w.png"
-mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
+# ASCII-Font › http://patorjk.com/software/taag/#p=display&f=Slant&t=Phlow
+#
+#      _____ _ __          _____      __  __  _
+#     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
+#     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
+#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
+#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
+#                                                 /____/
+#
+# Title of your website
+title: 'Feeling Responsive'
 
-copyright_text: "&copy; copyright all reserved to <a href='https://themefisher.com/'>themefisher.com</a>-2020"
+# The slogan describes your website and is used on homepage in <title> and other important places
+slogan: 'A Flexible Theme for Jekyll'
 
-author_info:
-  - name: "Pepe Moyano"
-    designation: "Random Blogger"
-    bio: "Baterista, programador y ser humano."
-    website: "https://ppmoyano.github.io/"
-    image: "/assets/images/author.jpg"
-    signature: "/assets/images/ppmoyano-logo.png"
-    facebook_url: "https://www.facebook.com/pepemoyano"
-    twitter_url: "https://twitter.com/pepemoyano"
-    instagram_url: "https://www.instagram.com/pepe.moyano"
-    youtube_url: "https://www.youtube.com/user/pepemoyano"
-    #pinterest_url: "https://www.pinterest.com/rubel8525/"
+# The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
+description: '»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.'
 
-# Build settings
-markdown: kramdown
+# The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
+credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+
+# Main author of the website
+# See > authors.yml
+author: phlow
+
+# This URL is the main address for absolute links. Don't include a slash at the end.
+#
+url: 'https://phlow.github.io'
+baseurl: '/feeling-responsive'
+
+# This is for the editing function in _/includes/improve_content
+# Leave it empty if your site is not on GitHub/GitHub Pages
+improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+
+# This URL points directly to the images directory making
+# things easier to link to images in posts and templates. It needs a slash at the end.
+#
+# Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
+# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
+#
+urlimg: 'https://phlow.github.io/feeling-responsive/images/'
+
+
+# Logo size is 600x80 pixels
+logo: "logo.png"
+
+# Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-archives
+    - jekyll-asciidoc
+    - jekyll-gist
+    - jekyll-paginate
 
-########################################################
-# Site configuration for the Jekyll 3 Pagination Gem
-# The values here represent the defaults if nothing is set
-pagination:
-  # Site-wide kill switch, disabled here it doesn't run at all
-  enabled: true
 
-  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination page
-  debug: false
+#       ____              _             __  _
+#      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____
+#     / /_/ / __ `/ __ `/ / __ \/ __ `/ __/ / __ \/ __ \
+#    / ____/ /_/ / /_/ / / / / / /_/ / /_/ / /_/ / / / /
+#   /_/    \__,_/\__, /_/_/ /_/\__,_/\__/_/\____/_/ /_/
+#               /____/
+#
+paginate: 5                      # Paginates all X entries
+paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
-  # The default document collection to paginate if nothing is specified ('posts' is default)
-  collection: "posts"
 
-  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 12
+# Theme works best with Kramdown (using the table of contents function)
+markdown           : kramdown
+permalink          : /:categories/:title/
+highlight          : rouge
+excerpt_separator  : "<!--more-->"
+include            : ['.htaccess']
+# Exclude these files from your production _site
+exclude:
+    - .sass-cache
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - INSTALL.md
+    - vendor
 
-  # The permalink structure for the paginated pages (this can be any level deep)
-  #permalink: '/page/:num/' # Pages are index.html inside this folder (default)
-  permalink: "/pages/:num/" # Pages are simple html file
-  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
-  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
-  title: ":title - page :num"
+# The language setting is used in /includes/header.html for html-settings
+language: 'en'
 
-  # Limit how many pagenated pages to create (default: 0, means all)
-  limit: 0
 
-  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
-  sort_field: "date"
+# Used › default.html front-matter and compress.html
+# Options › http://jch.penibelst.de
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
 
-  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  sort_reverse: true
 
-  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
-  category: "posts"
+#
+#       ____       ____            ____
+#      / __ \___  / __/___ ___  __/ / /_
+#     / / / / _ \/ /_/ __ `/ / / / / __/
+#    / /_/ /  __/ __/ /_/ / /_/ / / /_
+#   /_____/\___/_/  \__,_/\__,_/_/\__/
+#
+# Default Settings
 
-  # Optional, the default tag to use, omit to disable
-  tag: ""
+defaults:
+  -
+    scope:
+      path: '' 				# an empty string here means all files in the project
+      type: 'pages'
+    values:
+      show_meta: false 	# Hide metadata for all pages
+      # sidebar:    		# Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: phlow     # Default author for pages
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      show_meta: true   # Show metadata for all posts
+      # sidebar:        # Possible values › left, right › by default there will be no sidebar
+      comments: false
+      author: phlow     # Default author for posts
 
-  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts,
-  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
-  locale: ""
 
-  # Optional,omit or set both before and after to zero to disable.
-  # Controls how the pagination trail for the paginated pages look like.
-  trail:
-    before: 2
-    after: 2
 
-  # Optional, the default file extension for generated pages (e.g html, json, xml).
-  # Internally this is set to html by default
-  extension: "html"
+#       _   __            _             __  _
+#      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____
+#     /  |/ / __ `/ | / / / __ `/ __ `/ __/ / __ \/ __ \
+#    / /|  / /_/ /| |/ / / /_/ / /_/ / /_/ / /_/ / / / /
+#   /_/ |_/\__,_/ |___/_/\__, /\__,_/\__/_/\____/_/ /_/
+#                       /____/
+#
+#  Open _data/navigation.yml to adjust the left and right topbar navigation
+#
 
-  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
-  # Without file extension
-  indexpage: "index"
 
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_permalink_style: pretty
 
-jekyll-archives:
-  enabled: all
-  layout: category
-  permalinks:
-    category: "/category/:name/"
+#     _____ __________
+#    / ___// ____/ __ \
+#    \__ \/ __/ / / / /
+#   ___/ / /___/ /_/ /
+#  /____/_____/\____/    Verify Website to Webmaster Tools
 
-feed:
-  collections:
-    posts:
-      path: "/index.xml"
+google_site_verification        : 'Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ'
+bing_webmastertools_id          : '0FB4C028ABCF07C908C54386ABD2D97F'
+# yandex_site_verification      : ''
+# alexa_verify_id               : ''
+
+
+
+#       ______            _
+#      / ____/___ __   __(_)________  ____  _____
+#     / /_  / __ `/ | / / / ___/ __ \/ __ \/ ___/
+#    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  )
+#   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
+#                                                 More information » https://mathiasbynens.be/notes/touch-icons
+
+favicon-32x32                        : 'favicon-32x32.png'
+touch-icon-192x192                   : 'touch-icon-192x192.png'
+apple-touch-icon-180x180-precomposed : 'apple-touch-icon-180x180-precomposed.png'
+apple-touch-icon-152x152-precomposed : 'apple-touch-icon-152x152-precomposed.png'
+apple-touch-icon-144x144-precomposed : 'apple-touch-icon-144x144-precomposed.png'
+apple-touch-icon-120x120-precomposed : 'apple-touch-icon-120x120-precomposed.png'
+apple-touch-icon-114x114-precomposed : 'apple-touch-icon-114x114-precomposed.png'
+apple-touch-icon-76x76-precomposed   : 'apple-touch-icon-76x76-precomposed.png'
+apple-touch-icon-72x72-precomposed   : 'apple-touch-icon-72x72-precomposed.png'
+apple-touch-icon-precomposed         : 'apple-touch-icon-precomposed.png'
+msapplication_tileimage              : 'msapplication_tileimage.png'               # Size 144x144
+msapplication_tilecolor              : '#fabb00'
+
+
+#       ______                __                __
+#      / ____/___ _________  / /_  ____  ____  / /__
+#     / /_  / __ `/ ___/ _ \/ __ \/ __ \/ __ \/ //_/
+#    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
+#   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
+
+og_image                             : 'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
+og_locale                            : 'en_EN'
+og_type                              : 'website'
+
+
+#      _____            _       __   __  ___         ___
+#     / ___/____  _____(_)___ _/ /  /  |/  /__  ____/ (_)___ _
+#     \__ \/ __ \/ ___/ / __ `/ /  / /|_/ / _ \/ __  / / __ `/
+#    ___/ / /_/ / /__/ / /_/ / /  / /  / /  __/ /_/ / / /_/ /
+#   /____/\____/\___/_/\__,_/_/  /_/  /_/\___/\__,_/_/\__,_/
+#
+#  Open _data/socialmedia.yml to adjust the left and right topbar navigation
+#
+
+socialmedia:
+    twitter   : phlow
+    facebook  : phlow.media
+
+
+#        ____  _
+#       / __ \(_)________ ___  _______
+#      / / / / / ___/ __ `/ / / / ___/
+#     / /_/ / (__  ) /_/ / /_/ (__  )
+#    /_____/_/____/\__, /\__,_/____/
+#                    /_/
+#
+# used in _includes/comments
+
+# disqus_shortname: 
+
+
+#      _____
+#     / ___/____ ___________
+#     \__ \/ __ `/ ___/ ___/
+#    ___/ / /_/ (__  |__  )     More › http://sass-lang.com/
+#   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
+#
+
+sass:
+    sass_dir : _sass
+    style    : :compressed
+
+
+#       ___                __      __  _
+#      /   |  ____  ____ _/ /_  __/ /_(_)_________
+#     / /| | / __ \/ __ `/ / / / / __/ / ___/ ___/
+#    / ___ |/ / / / /_/ / / /_/ / /_/ / /__(__  )
+#   /_/  |_/_/ /_/\__,_/_/\__, /\__/_/\___/____/      https://www.google.com/analytics/
+#                        /____/
+#
+# used in _includes/footer_scripts
+
+# google_analytics_tracking_id:
+
+
+
+#   _                 _     _
+#  | |_ __ ___      _| | __| |_ ___
+#  | __/ _` \ \ /\ / / |/ /| __/ _ \
+#  | || (_| |\ V  V /|   < | || (_) |
+#   \__\__,_| \_/\_/ |_|\_(_)__\___/     More › https://www.tawk.to/knowledgebase/
+#
+#  tawk.to is a free live chat app that lets you monitor and chat
+#  with visitors on your website or from a free customizable page
+#
+#  To load the script add tawkto: true in front matter of each page
+#
+# used in _includes/footer_scripts
+
+# tawkto_embed_uri:
+
+
+#     ___              _     __           __
+#    /   |  __________(_)___/ /___  _____/ /_____  _____
+#   / /| | / ___/ ___/ / __  / __ \/ ___/ __/ __ \/ ___/
+#  / ___ |(__  ) /__/ / /_/ / /_/ / /__/ /_/ /_/ / /
+# /_/  |_/____/\___/_/\__,_/\____/\___/\__/\____/_/
+#
+#  Asciidoctor is a fast text processor and publishing toolchain for converting
+#  AsciiDoc content to HTML5, DocBook 5 (or 4.5) and other formats.
+#
+#  https://github.com/asciidoctor/jekyll-asciidoc
+#  https://github.com/asciidoctor
+#
+#
+
+asciidoctor-enabled: false
+asciidoctor:
+  description: 
+  attributes:
+    source-highlighter: coderay
+    coderay-css: style
+    icons: font

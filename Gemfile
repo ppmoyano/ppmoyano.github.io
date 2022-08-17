@@ -1,9 +1,13 @@
-source "https://rubygems.org"
-gem 'bundler'
+source 'https://rubygems.org'
+
 gem 'jekyll'
-gem "jekyll-feed", "~> 0.12"
-gem "jekyll-paginate-v2"
-gem 'jekyll-tagging'
-gem 'jekyll-archives'
-gem 'wdm', '>= 0.1.1'
-gem "webrick", "~> 1.7"
+
+group :jekyll_plugins do
+  gem 'jekyll-gist'
+  gem 'jekyll-paginate'
+  gem "jekyll-asciidoc"
+end
+
+gem 'asciidoctor', '~> 1.5.4'
+gem 'coderay', '1.1.1'
+
