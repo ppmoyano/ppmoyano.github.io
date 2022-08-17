@@ -1,5 +1,9 @@
 - title: Home
-  url: "/blog"
+  url: "/"
+  side: left
+
+- title: "Blogs"
+  url: "/blog/"
   side: left
 
 - title: Archive
@@ -9,3 +13,5 @@
 - title: "Search"
   url: "/search/"
   side: right
+
+
