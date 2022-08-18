@@ -1,19 +1,5 @@
 ---
 #
-# Use the widgets beneath and the content will be
-# inserted automagically in the webpage. To make
-# this work, you have to use › layout: frontpage
-#
-layout: frontpage
-header:
-  image_fullwidth: header_show_primavera.jpg
-widget1:
-  title: "Que es esto? // What is this?"
-  image: author.jpg
-  text: 'Queria crear un espacio donde podia compartir cosas que escribo, cosas que aprendo, cosas que quiero compartir, fuera de las redes sociales.
-  <em> My plan was to create a space where I could share things I wrtie, things I learn, things I want to share, outside of social networks.</em>  '
-
-#
 # Use the call for action to show a button on the frontpage
 #
 # To make internal links, just use a permalink like this
