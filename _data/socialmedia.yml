@@ -1,37 +1,37 @@
 - name: GitHub
-  url: http://github.com/ppmoyano
+  url: http://github.com/phlow
   class: icon-github
-  title: Cosas de codigo
+  title: Code und mehr...
 
 - name: YouTube
-  url: http://www.youtube.com/pepemoyano
+  url: http://www.youtube.com/PhlowMedia
   class: icon-youtube
-  title: Mis videos, malos y buenos
+  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
 - name: Twitter
-  url: http://twitter.com/pepemoyano
+  url: http://twitter.com/phlow
   class: icon-twitter
-  title: Poco para decir
+  title: "Immer das Neuste von Phlow gibt es auf Twitter"
 
-#- name: Mixcloud
-#  url: http://www.mixcloud.com/phlow/
-#  class: icon-cloud
-#  title: "Mixe, was sonst?"
+- name: Mixcloud
+  url: http://www.mixcloud.com/phlow/
+  class: icon-cloud
+  title: "Mixe, was sonst?"
 
- - name: Facebook
-   url: http://www.facebook.com/pepemoyano
-   class: icon-facebook
-   title: Mi red social mas vieja
+# - name: Facebook
+#   url: http://www.facebook.com/
+#   class: icon-facebook
+#   title: ""
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/
 #   class: icon-soundcloud
 #   title: ""
 
- - name: Instagram
-   url: http://instagram.com/pepe.moyano
-   class: icon-instagram
-   title: Otra red social
+# - name: Instagram
+#   url: http://instagram.com/
+#   class: icon-instagram
+#   title: ""
 
 # - name: Pinterest
 #   url: http://www.pinterest.com/
