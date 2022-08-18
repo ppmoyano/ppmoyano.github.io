@@ -6,12 +6,12 @@
 - name: YouTube
   url: http://www.youtube.com/pepemoyano
   class: icon-youtube
-  title: "Mis videos - malos y buenos"
+  title: Mis videos, malos y buenos
 
 - name: Twitter
   url: http://twitter.com/pepemoyano
   class: icon-twitter
-  title: "Poco pare decir"
+  title: Poco para decir
 
 #- name: Mixcloud
 #  url: http://www.mixcloud.com/phlow/
@@ -21,7 +21,7 @@
  - name: Facebook
    url: http://www.facebook.com/pepemoyano
    class: icon-facebook
-   title: "Mi red social mas vieja"
+   title: Mi red social mas vieja
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/
@@ -31,7 +31,7 @@
  - name: Instagram
    url: http://instagram.com/pepe.moyano
    class: icon-instagram
-   title: "Otra red social"
+   title: Otra red social
 
 # - name: Pinterest
 #   url: http://www.pinterest.com/
