@@ -7,7 +7,17 @@
 layout: frontpage
 header:
   image_fullwidth: header_show_primavera.jpg
-#
+
+#Space para las social medias
+<div>
+  <ul class="inline-list social-icons">
+    <li>
+      <a href="http://www.youtube.com/pepemoyano" target="_blank" title="Red de videos">
+        <i class="fab fa-youtube" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
 # Use the call for action to show a button on the frontpage
 #
 # To make internal links, just use a permalink like this
