@@ -1,7 +1,7 @@
-#- name: GitHub
-#  url: http://github.com/ppmoyano
-#  class: icon-github
-#  title: Code und mehr...
+- name: GitHub
+  url: http://github.com/ppmoyano
+  class: icon-github
+  title: Cosas de codigo
 
 - name: YouTube
   url: http://www.youtube.com/pepemoyano
