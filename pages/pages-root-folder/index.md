@@ -6,7 +6,7 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: header_unsplash_12.jpg
+  image_fullwidth: header_show_primavera.jpg
 widget1:
   title: "Sobre mi »About Me«"
   url: 'http://phlow.github.io/feeling-responsive/blog/'
