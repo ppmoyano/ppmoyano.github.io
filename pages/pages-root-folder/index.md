@@ -8,16 +8,6 @@ layout: frontpage
 header:
   image_fullwidth: header_show_primavera.jpg
 
-#Space para las social medias
-<div>
-  <ul class="inline-list social-icons">
-    <li>
-      <a href="http://www.youtube.com/pepemoyano" target="_blank" title="Red de videos">
-        <i class="fab fa-youtube" aria-hidden="true"></i>
-      </a>
-    </li>
-  </ul>
-</div>
 # Use the call for action to show a button on the frontpage
 #
 # To make internal links, just use a permalink like this
@@ -38,7 +28,15 @@ permalink: /index.html
 #
 homepage: true
 ---
-
+<div>
+  <ul class="inline-list social-icons">
+    <li>
+      <a href="http://www.youtube.com/pepemoyano" target="_blank" title="Red de videos">
+        <i class="fab fa-youtube" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
     <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
