@@ -18,10 +18,10 @@
 #   class: icon-facebook
 #   title: ""
 
-# - name: Instagram
-#   url: http://instagram.com/
-#   class: icon-instagram
-#   title: ""
+ - name: Instagram
+   url: http://instagram.com/pepe.moyano
+   class: icon-instagram
+   title: Otra red social
 
 # - name: Pinterest
 #   url: http://www.pinterest.com/
