@@ -108,7 +108,7 @@ defaults:
     values:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
-      comments: false
+      comments: true
       author: phlow     # Default author for pages
   -
     scope:
@@ -203,7 +203,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-# disqus_shortname: 
+ disqus_shortname: ppmoyano
 
 
 #      _____
