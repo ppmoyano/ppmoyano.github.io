@@ -117,7 +117,7 @@ defaults:
     values:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      comments: false
+      comments: true
       author: phlow     # Default author for posts
 
 
