@@ -5,9 +5,7 @@ layout: page
 #
 subheadline: "Video Juegos"
 title: "Mis video juegos favoritos"
-teaser: "Soy de la generación que creció con los juegos de video. Arranque con el Atari, todas las pc desde la 2 86 hasta ahora, family, sega, Ps 1, 2 y 3 <em>(y me quede ahí (por ahora))</em>. Para considerar que un juego influencio tu vida, tendria que medirse por la cantidad de horas jugadas, la cantidad de charlas que tuviste sobre el juego (entre amigos, foros, etc), si alguna vez decoraste algo con el juego (un fondo de pantalla, una remera (¿samarreta?), un cuadro, el armario, lo que sea), y si alguna vez cambiaste alguna actividad para seguir jugando.
-Si no hiciste alguna de esas cosas, estamos hablando de un juego pasajero.
-Asi que aca va mi top 5."
+teaser: "Soy de la generación que creció con los juegos de video. Arranque con el Atari, todas las pc desde la 2 86 hasta ahora, family, sega, Ps 1, 2 y 3 <em>(y me quede ahí (por ahora))</em>."
 categories:
   - video juegos
 tags:
@@ -25,7 +23,14 @@ image:
     caption: Photo by Corey Blaz
     caption_url: https://blaz.photography/
 ---
+Para considerar que un juego influencio tu vida, tendria que medirse por la cantidad de horas jugadas, la cantidad de charlas que tuviste sobre el juego (entre amigos, foros, etc), si alguna vez decoraste algo con el juego (un fondo de pantalla, una remera (¿samarreta?), un cuadro, el armario, lo que sea), y si alguna vez cambiaste alguna actividad para seguir jugando.
+Si no hiciste alguna de esas cosas, estamos hablando de un juego pasajero.
+Asi que aca va mi top 5.
 ## Puesto Nro. 5: PES
+
+![PES](https://media.vandal.net/i/ivandal/1200x630/5380/200692523656_1.jpg)
+<small>[PES](https://media.vandal.net/i/ivandal/1200x630/5380/200692523656_1.jpg) Foto del juego.</small>
+
 
 El famoso PES, tengo un montón de horas jugando a este juego. Con amigos, con mis hermanos, solo, simulando mundiales y falsos torneos. Siempre juego con Argentina y casualmente con el Barza. Cuando estamos cerca de la fecha del mundial o alguna copa, me gusta armar el fixture tal cual y jugarlo con la Selección. Si se puede lo jugamos de a 2 con mi hermano y tratamos de pasarlo subiendo el nivel de dificultad. Tengo un tatuaje de un triangulo y cuando me preguntan que significa digo que es el pase largo. Pocos lo entienden. Esta en el puesto nro 5, porque nunca me llego a apasionar del todo, es mas no me considero un buen player. Actualmente tengo la version 2015 y le juego en la ps3, pero lo juego desde que se llamaba International Super Star Pro Soccer 2000 (ps1). (igual ya me atrase).
 
