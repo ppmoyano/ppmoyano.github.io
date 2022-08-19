@@ -203,7 +203,7 @@ socialmedia:
 #
 # used in _includes/comments
 
- disqus_shortname: ppmoyano
+# disqus_shortname: ppmoyano
 
 
 #      _____
