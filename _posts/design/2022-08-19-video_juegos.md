@@ -47,7 +47,7 @@ El COUNTER!!!! Que juegazo. Con el Counter fue que aparecio esto de jugar en LAN
 
 Helbreath, aca con la lista empezamos con los "No tan conocidos" pero sin dudas de los mas influyentes. Cuando lo vi no lo podia creer. La guerra de dos ciudades, y yo tenia que defender a mi pueblo. Y mientras mas entrenaba mas groso era. Requeria mucho tiempo. En 2 meses de juego con muchas horas, tenia un guerrero aceptable para la lucha. Empece a jugar cerca de la Navidad del 2004-2005 ,no me acuerdo bien, pero siempre en navidad me da ganas de instalarlo. Jugue una tonelada de servers, y mi hermano se hizo crack en el armado de servers, yo probe todos. Hasta hace pocos meses estuve jugando en un servidor, y me sigue fascinando. Es un juego increible. Conoci mucha gente, y siempre use el mismo nick "Mortimer" y mi guild era "Salsa Pomarola", no habia dicho pero en el counter era Flotopoco y mi clan era DamosOcote.
 
-# Puesto Nro. 2: Thrasher: Skate & Destroy
+## Puesto Nro. 2: Thrasher: Skate & Destroy
 
 ![](https://static.wikia.nocookie.net/tonyhawkgames/images/d/dd/642660-thrasher_cover.jpg)
 
