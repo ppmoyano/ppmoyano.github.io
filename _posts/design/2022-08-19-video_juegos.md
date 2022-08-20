@@ -18,11 +18,11 @@ tags:
 #
 header: no
 image:
-    title: mediaplayer_js-title.jpg
-    thumb: mediaplayer_js-thumb.jpg
-    homepage: mediaplayer_js-home.jpg
-    caption: Photo by Corey Blaz
-    caption_url: https://blaz.photography/
+    title: family_game-title.jpg
+    thumb: family_game-thumb.jpg
+    homepage: family_game-home.jpg
+    caption: Photo by MiNe
+    caption_url: https://www.flickr.com/photos/sfmine79/34789622304
 ---
 Para considerar que un juego influencio tu vida, tendria que medirse por la cantidad de horas jugadas, la cantidad de charlas que tuviste sobre el juego (entre amigos, foros, etc), si alguna vez decoraste algo con el juego (un fondo de pantalla, una remera (¿samarreta?), un cuadro, el armario, lo que sea), y si alguna vez cambiaste alguna actividad para seguir jugando.
 Si no hiciste alguna de esas cosas, estamos hablando de un juego pasajero.
