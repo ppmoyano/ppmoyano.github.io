@@ -36,19 +36,27 @@ El famoso PES, tengo un montón de horas jugando a este juego. Con amigos, con m
 
 ## Puesto Nro. 4: Counter Strike
 
+![](https://www.lordiz.com/resimler/lordiz/bedava-counter-strike-indir.jpg)
+
 El COUNTER!!!! Que juegazo. Con el Counter fue que aparecio esto de jugar en LAN (varias computadoras conectadas en red local). Era increible, era a la salida del colegio, o faltar al colegio para irme con mis amigos a jugar. Incluso, en ocaciones, toda la noche. Con pisto, con cuchi, con sniper, con friendly fire, todos los modos. Incluso en un momento  me senti pro pero empece a jugar online y de las millones de veces que jugue algun mapa, dos o tres estuve en el primer puesto. Me gustaba tanto este juego que una vez cuando subieron los precios de los cyber, nos fuimos a jugarlo a la Capital de Cordoba, porque en mi ciudad salia 2 pesos la hora y alla un peso. Entonces habíamos sacado la cuenta y si jugabamos mas de 5 horas nos salia mas barato con colectivo y todo. Otra anecdota, es que una vez abrio un cyber con compus nuevas (que durante mucho tiempo fue el top de la ciudad) y nos fuimos corriendo (15 cuadras) para jugar. 
 
 ## Puesto Nro. 3: Helbreath
 
+![](https://www.helbreath.net/img/dts/dts1.jpg)
+
 Helbreath, aca con la lista empezamos con los "No tan conocidos" pero sin dudas de los mas influyentes. Cuando lo vi no lo podia creer. La guerra de dos ciudades, y yo tenia que defender a mi pueblo. Y mientras mas entrenaba mas groso era. Requeria mucho tiempo. En 2 meses de juego con muchas horas, tenia un guerrero aceptable para la lucha. Empece a jugar cerca de la Navidad del 2004-2005 ,no me acuerdo bien, pero siempre en navidad me da ganas de instalarlo. Jugue una tonelada de servers, y mi hermano se hizo crack en el armado de servers, yo probe todos. Hasta hace pocos meses estuve jugando en un servidor, y me sigue fascinando. Es un juego increible. Conoci mucha gente, y siempre use el mismo nick "Mortimer" y mi guild era "Salsa Pomarola", no habia dicho pero en el counter era Flotopoco y mi clan era DamosOcote.
 
 # Puesto Nro. 2: Thrasher: Skate & Destroy
+
+![](https://static.wikia.nocookie.net/tonyhawkgames/images/d/dd/642660-thrasher_cover.jpg)
 
 (suelto un lagrimon), medio viejito el juego, de la ps1. Me acuerdo que mi viejo me compraba dos juegos a la salida de misa todos los domingos, y un dia me compre el coolboards, que era de snowbord, y estaba re copado. Pero era imposible hacer ese deporte porque aca no hay nieve, vi la tapa de este juego y pense "Como el coolboards pero en la calle". Lo probe, y era una locura. A las dos semanas fui a comprar un skate y andar igual que los personajes (usaba el de camisa no me acuerdo bien el nombre creo que era Scab). Patine apasionadamente durante dos o tres años. Despues muy ocasionalmente, y hoy ya no me subo a una tabla hace mas de dos años, pero siempre que veo unas escaleras o una baranda me imagino que se podria hacer ahi, igual que en los escenarios del thrasher (a algunos le gusta el Tony Hawks, pero ese era pura fruta, este es mas como un simulador de skate). Dejo un videito de mis ultimas epocas en el skate con mi hermano y mi primo:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PKw2LH88Uq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Puesto Nro. 1: Monkey Island
+
+![](https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2022/04/04/624b399a25d8e.jpeg)
 
 Este juego para mi es palabra mayor. Lo jugue mil veces. Y a pesar de que me lo conozco, me gusta perderme en el juego y encontrar chistes nuevos. Con amigos siempre nos hacemos frases del duelo de espadas. Y cuando conozco gente que le ha jugado pegamos onda instantaneamente. Desde que juege este juego, siempre quiero jugar juegos asi (Aventuras Graficas) y hasta hoy lo sigo haciendo. La ultima que jugue es La Fuga de Deponia, muy bueno!!!!. Jugar a estos juegos es similar a leer un libro o ver una pelicula. Mejoraron los graficos, la jugabilidad, las consolas, pero lo unico que importa es la historia. Y Monkey Island es mi historia favorita y el juego que mas influencio mi vida.
 
