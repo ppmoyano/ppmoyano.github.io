@@ -28,9 +28,7 @@ Si no hiciste alguna de esas cosas, estamos hablando de un juego pasajero.
 Asi que aca va mi top 5.
 ## Puesto Nro. 5: PES
 
-![PES](https://media.vandal.net/i/ivandal/1200x630/5380/200692523656_1.jpg)</br>
-<small>[PES](https://media.vandal.net/i/ivandal/1200x630/5380/200692523656_1.jpg) 
-Foto del juego.</small>
+![](https://media.vandal.net/i/ivandal/1200x630/5380/200692523656_1.jpg)
 
 
 El famoso PES, tengo un montón de horas jugando a este juego. Con amigos, con mis hermanos, solo, simulando mundiales y falsos torneos. Siempre juego con Argentina y casualmente con el Barcelona. Cuando estamos cerca de la fecha del mundial o alguna copa, me gusta armar el fixture tal cual y jugarlo con la Selección. Si se puede lo jugamos de a 2 con mi hermano y tratamos de pasarlo subiendo el nivel de dificultad. Tengo un tatuaje de un triangulo y cuando me preguntan que significa digo que es el pase largo. Pocos lo entienden. Esta en el puesto nro 5, porque nunca me llego a apasionar del todo, es mas no me considero un buen player. El último que jugué es la version 2015 en la ps3, pero lo juego desde que se llamaba International Super Star Pro Soccer 2000 (ps1). (igual ya me atrase).
