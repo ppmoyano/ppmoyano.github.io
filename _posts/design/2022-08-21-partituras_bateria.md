@@ -29,9 +29,7 @@ La primer canción el ritmo es "TU PA TUTU PA". Quizás tu lo entiendas, pero el
 ## Antes que nada
 Aremos un repaso por los nombres de cada una de las partes de la bateria.
 
-<div class="medium-4 columns t30">
-      <img src="{{ site.urlimg }}bateria/partes_bateria.jpg" alt="">
-</div>
+<img src="{{ site.urlimg }}bateria/partes_bateria.jpg" alt="">
 
 En un set standard siempre nos encontramos con estos "cuerpos". 
 En el grupo de platillos o cymbals tenemos:
@@ -46,17 +44,13 @@ Nos imaginamos tres lineas, la primera es del hihat, luego del tambor y la de ab
 Los grupos de platillos los escribimos con una x, y los grupos de los cuerpos los escribimos con un circulito. 
 Y en una linea vertical representamos que los tres elementos suenan al mismo tiempo.
 
-<div class="medium-4 columns t30">
-      <img src="{{ site.urlimg }}bateria/bateria_partitura.jpg" alt="">
-</div>
+<img src="{{ site.urlimg }}bateria/bateria_partitura.jpg" alt="">
 
 Esto lo explico de una manera para que todos lo podamos entender, sin tener ningun conocimiento previo. 
 
 ## Un ritmo sencillo
 
-<div class="medium-4 columns t30">
-      <img src="{{ site.urlimg }}bateria/ritmo_basico.jpg" alt="">
-</div>
+<img src="{{ site.urlimg }}bateria/ritmo_basico.jpg" alt="">
 
 Con lo que hemos aprendido, en este trozo de partitura podemos entender que primero tocaremos el hihat junto con el bombo a la vez, luego el hihat junto al redo, luego de nuevo el hihat junto al bombo a la vez y luego el hihat junto al redo de nuevo. Y a esto lo repetiremos una infinidad de veces xD.
 
