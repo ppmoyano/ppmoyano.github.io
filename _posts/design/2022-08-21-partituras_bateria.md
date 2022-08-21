@@ -4,8 +4,8 @@ sidebar: right
 #
 # Content
 #
-subheadline: "Bateria"
-title: "Como leer partituras de bateria"
+subheadline: "Batería"
+title: "Como leer partituras de batería"
 teaser: "Para leer y escribir música <em>¿hace falta?</em> entender las partituras. Aquí te enseño, de la misma manera en que aprendí yo, como leer (y escribir) partituras de batería."
 categories:
   - Bateria
@@ -23,11 +23,11 @@ image:
     homepage: partituras_bateria_1-home.jpg
     caption: Mi vieja Sonor select force
 ---
-Leer y escribir partituras, te sirve para poder guardar tus ideas y entender las ideas de otros bateristas. Si un día estas enfermo y no puedes ir a tu show, y necesitas un reemplazo, puedes mandarle una hoja al baterista suplente que diga: 
-La primer canción el ritmo es "TU PA TUTU PA". Quizás tu lo entiendas, pero el puede entender otra cosa. Es por eso que se ha inventado una manera universal para que todos entendamos lo mismo. (Eso no significa que tus maneras esten mal)
+Leer y escribir partituras, te sirve para poder guardar tus ideas y entender las ideas de otros bateristas. Si un día estás enfermo y no puedes ir a tu show, y necesitas un reemplazo, puedes mandarle una hoja al baterista suplente que diga: 
+La primer canción el ritmo es "TU PA TUTU PA". Quizás tú lo entiendas, pero él puede entender otra cosa. Es por eso que se ha inventado una manera universal para que todos entendamos lo mismo. (Eso no significa que tus maneras estén mal)
 
 ## Antes que nada
-Aremos un repaso por los nombres de cada una de las partes de la bateria.
+Aremos un repaso por los nombres de cada una de las partes de la batería.
 
 <img src="{{ site.urlimg }}bateria/partes_bateria.jpg" alt="">
 
@@ -35,18 +35,18 @@ En un set standard siempre nos encontramos con estos "cuerpos".
 En el grupo de platillos o cymbals tenemos:
 - Hihat, Crash y Ride.
 Y en el grupo de tambores tenemos:
-- Tom 1, 2 y 3 (tambien conocidos como tom High, Medium y Low. O tambien conocidos como tom flotante o tom de pie.), Tambor (tambien conocido como caja, resoblante, redo o snare) y por último el bombo.
+- Tom 1, 2 y 3 (también conocidos como tom High, Medium y Low. O también conocidos como tom flotante o tom de pie.), Tambor (también conocido como caja, resoblante, redo o snare) y por último el bombo.
 
 ## Misma orden en la partitura
 
-Para escribir un ritmo inicial, es suficiente con el hi hat, el tambor y el bombo. En la partitura los colocaremos en el mismo orden de alturas que como esta seteada nuestra bateria. 
+Para escribir un ritmo inicial, es suficiente con el hi hat, el tambor y el bombo. En la partitura los colocaremos en el mismo orden de alturas que como esta seteada nuestra batería. 
 Nos imaginamos tres lineas, la primera es del hihat, luego del tambor y la de abajo el bombo.
 Los grupos de platillos los escribimos con una x, y los grupos de los cuerpos los escribimos con un circulito. 
-Y en una linea vertical representamos que los tres elementos suenan al mismo tiempo.
+Y en una línea vertical representamos que los tres elementos suenan al mismo tiempo.
 
 <img src="{{ site.urlimg }}bateria/bateria_partitura.jpg" alt="">
 
-Esto lo explico de una manera para que todos lo podamos entender, sin tener ningun conocimiento previo. 
+Esto lo explico de una manera para que todos lo podamos entender, sin tener ningún conocimiento previo. 
 
 ## Un ritmo sencillo
 
