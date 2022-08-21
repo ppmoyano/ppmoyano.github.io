@@ -56,4 +56,6 @@ Con lo que hemos aprendido, en este trozo de partitura podemos entender que prim
 
 Sabiendo esto ya estas listo para tocar esta cancion:
 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Dubt1RgyFqMtyXG7mB5Ql?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zhV7uhM_Tvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
