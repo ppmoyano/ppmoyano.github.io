@@ -6,7 +6,7 @@ sidebar: right
 #
 subheadline: "Series"
 title: "Just add magic - Una pizca de magia"
-teaser: "Arrancamos este espacio con la última serie que vi. La historia es entorno a tres amigas que encuentran un libro de cocina, pero no un libro cualquiera, si no un libro mágico. Cada receta es un hechizo, y cada hechizo trae un efecto secundario. Y ellas tendran que usar la mágia para solucionar problemas y proteger el libro, ya que son sus nuevas protectoras."
+teaser: "Arrancamos este espacio con la última serie que vi. La historia es entorno a tres amigas que encuentran un libro de cocina, pero no un libro cualquiera, si no un libro mágico. Cada receta es un hechizo, y cada hechizo trae un efecto secundario. Ellas tendran que usar la mágia para solucionar problemas y proteger el libro, ya que son sus nuevas protectoras."
 categories:
   - Series
 tags:
@@ -26,9 +26,9 @@ image:
 ---
 Habia terminado de ver Pequeñas Coincidencias, y no sabia con que continuar. Me acordaba de series que veia yo a los 11-13 años (Clarissa lo explica todo o Sabrina la bruja adolescente) y trate de buscar algo similar para esta epoca, y encontre Just Add Magic.
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/91nPsdjwmXL._RI_.jpg" alt=""  style="width:50%;height:50%;">
+<img src="https://images-na.ssl-images-amazon.com/images/I/91nPsdjwmXL._RI_.jpg" alt="">
 
-Kelly (Olivia Sanabia), Hannah (Aubrey K. Miller) y Derbie (Abby Donnelly) son el trio de amigas inseparables. Que con la ayuda del libro mágico, preparan recetas para solucionar sus problemas (algunos mas importantes, y otros tipicos de adolescentes). El primer desafío que tienen que resolver con la ayuda del libro es curar la "enfermedad" de la abuela de Kelly.
+<a href="https://www.instagram.com/oliviasanabia">Kelly (Olivia Sanabia)</a>, <a href="https://www.instagram.com/officialaubreymiller">Hannah (Aubrey K. Miller)</a> y <a href"https://www.instagram.com/abigail.donnelly">Derbie (Abby Donnelly)</a> son el trio de amigas inseparables. Que con la ayuda del libro mágico, preparan recetas para solucionar sus problemas (algunos mas importantes, y otros tipicos de adolescentes). El primer desafío que tienen que resolver con la ayuda del libro es curar la "enfermedad" de la abuela de Kelly.
 
 A medida que avanza la serie, van descubriendo sobre la historia del libro y su misión. Mientras se tratan valores como la familia y la amistad.
 
