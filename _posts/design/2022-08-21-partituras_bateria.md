@@ -55,5 +55,6 @@ Esto lo explico de una manera para que todos lo podamos entender, sin tener ning
 Con lo que hemos aprendido, en este trozo de partitura podemos entender que primero tocaremos el hihat junto con el bombo a la vez, luego el hihat junto al redo, luego de nuevo el hihat junto al bombo a la vez y luego el hihat junto al redo de nuevo. Y a esto lo repetiremos una infinidad de veces xD.
 
 Sabiendo esto, ya estas listo para tocar estas canciones:
+<div></div>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2TxEBa17jtY0hP2ntOGHqY?utm_source=generator" width="50%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
