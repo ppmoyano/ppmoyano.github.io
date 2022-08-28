@@ -28,7 +28,7 @@ Habia terminado de ver Pequeñas Coincidencias, y no sabia con que continuar. Me
 
 <img src="https://images-na.ssl-images-amazon.com/images/I/91nPsdjwmXL._RI_.jpg" alt="">
 
-<a href="https://www.instagram.com/oliviasanabia">Kelly (Olivia Sanabia)</a>, <a href="https://www.instagram.com/officialaubreymiller">Hannah (Aubrey K. Miller)</a> y <a href"https://www.instagram.com/abigail.donnelly">Derbie (Abby Donnelly)</a> son el trio de amigas inseparables. Que con la ayuda del libro mágico, preparan recetas para solucionar sus problemas (algunos mas importantes, y otros tipicos de adolescentes). El primer desafío que tienen que resolver con la ayuda del libro es curar la "enfermedad" de la abuela de Kelly.
+<a href="https://www.instagram.com/oliviasanabia" target="_blank">Kelly (Olivia Sanabia)</a>, <a href="https://www.instagram.com/officialaubreymiller" target="_blank">Hannah (Aubrey K. Miller)</a> y <a href="https://www.instagram.com/abigail.donnelly" target="_blank">Derbie (Abby Donnelly)</a> son el trio de amigas inseparables. Que con la ayuda del libro mágico, preparan recetas para solucionar sus problemas (algunos mas importantes, y otros tipicos de adolescentes). El primer desafío que tienen que resolver con la ayuda del libro es curar la "enfermedad" de la abuela de Kelly.
 
 A medida que avanza la serie, van descubriendo sobre la historia del libro y su misión. Mientras se tratan valores como la familia y la amistad.
 
