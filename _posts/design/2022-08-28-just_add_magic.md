@@ -40,8 +40,6 @@ La serie da muchos giros, y hay momentos en que los personajes buenos se convier
 
 
 Calificación final:
-<div>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/4_stars.svg/1200px-4_stars.svg.png" alt="">
-</div>
+<img src="{{ '/images/4_estrellas.png'  }}" />
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OlcanLMBwpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
